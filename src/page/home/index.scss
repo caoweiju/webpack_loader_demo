@@ -1,0 +1,30 @@
+/*
+* @Author: caoweiju
+* @Date: 2019-07-25 16:18:02
+ * @Last Modified by: caoweiju
+ * @Last Modified time: 2019-09-28 17:03:27
+*/
+
+@charset 'utf-8';
+
+html,
+body{
+    padding: 0;
+}
+
+body{
+    background-image: url(http://img.mm4000.com/file/8/91/3b3c5819be_1044.jpg);
+}
+
+.app{
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .tit{
+        font-size: 16px;
+        color: red;
+        transform: scale(1.5);
+    }
+}
